@@ -25,10 +25,10 @@
 # author : Dereck Curry
 name : gh-pages-blog
 brand : gh-pages-blog
-description : Another great gh-pages-blog site
-url : http://www.github.com
-email : email@invalid.domain
-author: Blog Author
+description : The Official gh-pages-blog GitHub Page
+url : http://thedereck.github.com/gh-pages-blog
+email : thedereck@thedereck.com
+author: Dereck Curry
 
 
 # The following is a list of files to exclude from inclusion in the
@@ -173,21 +173,21 @@ sections:
     content :
       enabled : true
     social_links :
-      enabled : true
+      enabled : false
     github_projects :
       enabled : true
   social_links :
-    enabled : true
+    enabled : false
   github_projects :
-    enabled : true
+    enabled : false
   external_links :
     enabled : true
   archive :
-    enabled : true
+    enabled : false
   categories :
-    enabled : true
+    enabled : false
   tags :
-    enabled : true
+    enabled : false
 
 
 # The navbar settings determine what menus are displayed on the navbar at the
@@ -218,11 +218,11 @@ navbar :
   tags :
     enabled : true
   github_projects :
-    enabled : true
+    enabled : false
   social_links :
-    enabled : true
+    enabled : false
   external_links :
-    enabled : true
+    enabled : false
 
 
 # The social links are links to various social networking sites. Although
@@ -364,14 +364,11 @@ github_projects :
 #       name : Lowcountry Blues Club
 #       url : http://lowcountrybluesclub.blogspot.com
 external_links :
-  header : Links
+  header : More Great gh-pages-blog Sites
   links :
     - link :
       name : The Dereck
       url: http://thedereck.github.com
-    - link :
-      name : Baking Kookys
-      url : http://www.bakingkookys.com
 
 
 # These are the bootstrap settings. These bootstrap settings will control both
@@ -533,8 +530,8 @@ rss :
 #   shortname : TheDereck
 #   show_comment_count : false
 disqus :
-  enabled : false
-  shortname : DisqusShortName
+  enabled : true
+  shortname : ghpagesblog
   show_comment_count : true
 
 
@@ -556,7 +553,7 @@ disqus :
 #     enabled : true
 #     tracking_id : UA-1234567
 analytics :
-  enabled : false
+  enabled : true
   google_analytics :
-    enabled : false
-    tracking_id : GoogleAnalyticsTrackingID
+    enabled : true
+    tracking_id : UA-7954274-6
