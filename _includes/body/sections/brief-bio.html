@@ -2,11 +2,11 @@
 	{% assign section_brief_bio_html = null %}
 	{% capture section_brief_bio_html %}
 		<div class="well">
-			<div class="thumbnail">
-				{% if site.sections.brief_bio.image.enabled %}
+			{% if site.sections.brief_bio.image.enabled %}
+				<div class="thumbnail">
 					<img data-src="holder.js/200x200" alt="" src="{{ site.sections.brief_bio.image.url }}">
-				{% endif %}
-			</div>
+				</div>
+			{% endif %}
 			
 			{% if site.sections.brief_bio.content.enabled %}
 				<br>
