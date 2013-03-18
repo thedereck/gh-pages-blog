@@ -31,7 +31,7 @@
 
 		var create_post_div = function(post) {
 			var post_div = '<div class="ghpb-post"><div class="well ghpb-well-outline">';
-			post_div = post_div + '<h2><a href="' + post.url + '">' + post.title + '</a></h2>';
+			post_div = post_div + '<h2><a href="' + post.url + '">' + {{ site.url }} + post.title + '</a></h2>';
 
 			if (post.subtitle !== null && post.subtitle.length > 0) {
 				post_div = post_div + '<p>' + post.subtitle + '</p>';
