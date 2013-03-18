@@ -1,0 +1,11 @@
+{% assign navbar_pages_html = null %}
+{% capture navbar_pages_html %}
+	<ul class="nav pull-right">
+		{% for pages_p in site.pages %}
+			{% unless pages_p.exclude %}
+				<li><a href="{{site.url}}{{ pages_p.url }}">{{ pages_p.title }}</a></li>
+			{% endunless %}
+		{% endfor %}
+	</ul>
+{% endcapture %}
+{{ navbar_pages_html | strip_newlines | remove:'	' }}
