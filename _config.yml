@@ -25,7 +25,7 @@
 # author : Dereck Curry
 name : gh-pages-blog
 brand : gh-pages-blog
-description : Another great gh-pages-blog site
+description : The Official GH-Pages-Blog GitHub Page
 url : http://thedereck.github.com/gh-pages-blog/
 email : thedereck@thedereck.com
 author: Dereck Curry
@@ -181,7 +181,7 @@ sections:
   github_projects :
     enabled : false
   external_links :
-    enabled : true
+    enabled : false
   archive :
     enabled : true
   categories :
@@ -222,7 +222,7 @@ navbar :
   social_links :
     enabled : false
   external_links :
-    enabled : false
+    enabled : true
 
 
 # The social links are links to various social networking sites. Although
@@ -364,14 +364,11 @@ github_projects :
 #       name : Lowcountry Blues Club
 #       url : http://lowcountrybluesclub.blogspot.com
 external_links :
-  header : Links
+  header : More Great GH-Pages-Blogs
   links :
     - link :
       name : The Dereck
       url: http://thedereck.github.com
-    - link :
-      name : Baking Kookys
-      url : http://www.bakingkookys.com
 
 
 # These are the bootstrap settings. These bootstrap settings will control both
