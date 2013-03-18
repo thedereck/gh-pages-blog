@@ -56,7 +56,7 @@
 												{% if navbar_tags_p_match == false %}
 													{% assign navbar_tags_p_match = true %}
 													<li>
-														<a href="{{ navbar_tags_p.url }}">
+														<a href="{{ site.url }}{{ navbar_tags_p.url }}">
 															{% if site.font_awesome.enabled %}
 																<i class="icon-pencil"></i> 
 															{% endif %}
