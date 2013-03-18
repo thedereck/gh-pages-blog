@@ -334,7 +334,7 @@ social_links :
 #     name : gh-pages-blog
 #     url : https://github.com/thedereck/gh-pages-blog
 github_projects :
-  header : GitHub Projects
+  header : Fork Me!
   projects :
   - project :
     name : gh-pages-blog
