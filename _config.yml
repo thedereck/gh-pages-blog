@@ -364,7 +364,7 @@ github_projects :
 #       name : Lowcountry Blues Club
 #       url : http://lowcountrybluesclub.blogspot.com
 external_links :
-  header : More Great GH-Pages-Blogs
+  header : More Great gh-pages-blog Sites
   links :
     - link :
       name : The Dereck
