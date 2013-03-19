@@ -1,5 +1,5 @@
 ---
 layout : page
 title : Getting Started
-order : 0
+exclude : true
 ---
