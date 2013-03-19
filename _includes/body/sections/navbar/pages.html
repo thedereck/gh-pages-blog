@@ -13,7 +13,7 @@
 			{% endfor %}
 		{% endfor %}
 		{% for pages_p_null in site.pages %}
-			{% if pages_p_null == null %}
+			{% if pages_p_null.order == null %}
 				{% unless pages_p_null.exclude %}
 					<li>
 						<a href="{{site.url}}{{ pages_p_null.url }}">{{ pages_p_null.title }}</a>
