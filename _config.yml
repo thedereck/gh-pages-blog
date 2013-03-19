@@ -52,7 +52,7 @@ paginate : 10
 # alert : This is a sample alert message.
 # notice : This is a sample notice message.
 alert : false
-notice : New to gh-pages-blog? Learn more by visiting <a href="/00_getting_started.html">Getting Started</a> page.
+notice : New to gh-pages-blog? Learn more by visiting <a href="http://thedereck.github.com/gh-pages-blog/00_getting_started.html">Getting Started</a> page.
 
 
 # The favicon image served up to web browsers. Enable the local if you want
