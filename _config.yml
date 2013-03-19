@@ -173,7 +173,7 @@ sections:
     content :
       enabled : true
     social_links :
-      enabled : false
+      enabled : true
     github_projects :
       enabled : true
   social_links :
@@ -279,38 +279,28 @@ navbar :
 #       font_awesome_icon : icon-twitter
 #       url : http://www.twitter.com/_TheDereck_
 social_links :
-  follow_name : Me
+  follow_name : Dereck Curry For News And Updates
   links :
-    - link :
-      enabled : true
-      name : Facebook
-      font_awesome_icon : icon-facebook
-      url : https://www.facebook.com/
     - link :
       enabled : true
       name : GitHub
       font_awesome_icon : icon-github-alt
-      url : https://github.com/
+      url : https://github.com/TheDereck
     - link :
       enabled : true
       name: Google+
       font_awesome_icon : icon-google-plus
-      url : https://plus.google.com/
+      url : https://plus.google.com/109660251296662910676?rel=author
     - link :
       enabled : true
       name : Linkedin
       font_awesome_icon : icon-linkedin
-      url : http://www.linkedin.com/
-    - link :
-      enabled : true
-      font_awesome_icon : icon-pinterest
-      name : Pinterest
-      url : http://www.pinterest.com
+      url : http://www.linkedin.com/in/dereckcurry
     - link :
       enabled : true
       name : Twitter
       font_awesome_icon : icon-twitter
-      url : http://www.twitter.com/
+      url : http://www.twitter.com/_TheDereck_
 
 
 # These are a list of GitHub projects that the blog owner would like to
