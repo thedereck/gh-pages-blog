@@ -1,15 +1,15 @@
 {% assign head_common_html = null %}
 {% capture head_common_html %}
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="/css/{{ site.bootstrap.css }}" rel="stylesheet" media="screen">
-	<link href="/css/gh-pages-blog.css" rel="stylesheet" media="screen">
+	<link href="{{ site.url }}/css/{{ site.bootstrap.css }}" rel="stylesheet" media="screen">
+	<link href="{{ site.url }}/css/gh-pages-blog.css" rel="stylesheet" media="screen">
 
 	{% if site.bootstrap.responsive.enabled %}
-		<link href="/css/{{ site.bootstrap.responsive.css }}" rel="stylesheet">
+		<link href="{{ site.url }}/css/{{ site.bootstrap.responsive.css }}" rel="stylesheet">
 	{% endif %}
 
 	{% if site.font_awesome.enabled %}
-		<link rel="stylesheet" href="/css/{{ site.font_awesome.css }}">
+		<link rel="stylesheet" href="{{ site.url }}/css/{{ site.font_awesome.css }}">
 	{% endif %}
 
 	{% if site.rss.enabled %}
