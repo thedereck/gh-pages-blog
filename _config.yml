@@ -279,7 +279,7 @@ navbar :
 #       font_awesome_icon : icon-twitter
 #       url : http://www.twitter.com/_TheDereck_
 social_links :
-  follow_name : Dereck Curry For News And Updates About gh-pages-blog
+  follow_name : Dereck Curry For Updates About gh-pages-blog
   links :
     - link :
       enabled : true
