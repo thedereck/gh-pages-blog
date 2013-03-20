@@ -5,3 +5,5 @@ subtitle : So you want to learn more about using gh-pages-blog? Well, you've com
 exclude : true
 ---
 
+gh-pages-blog was designed to be a simple and quick solution to creating a responsive blog and website using the GitHub Pages functionality available to all GitHub accounts and hosted projects.
+
