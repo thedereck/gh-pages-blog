@@ -35,3 +35,7 @@ And although the blogging solution available from Jekyll isn't dynamic, I added 
 Also, lots of the display elements could use some better CSS instead of things like break tags to provide vertical separation. Again, it's functional, and I'll get these things cleaned up in time.
 
 But right now, I'd like to announce a version 0.1.0 of the [gh-pages-blog](http://www.github.com/thedereck/gh-pages-blog/) software. There's still plenty of work to be done and documentation to be produced, but it's very functional as is and that'll be good enough for now.
+
+Enjoy the blogging.
+
+Dereck
