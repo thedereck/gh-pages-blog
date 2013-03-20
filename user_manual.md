@@ -8,15 +8,40 @@ So you want to learn more about using gh-pages-blog. Well, you've come to the ri
 
 * [Getting Started]({{ site.url }}/getting_started.html)
 * Posts
+  * Title
+  * Subtitle
+  * Description
+  * Author
   * Category
   * Tags
   * Comments
+    * Disqus
 * Pages
+  * Title
+  * Subtitle
+  * Ordering
+  * Exclude
 * Brief Bio
+  * Image
+  * Bio Content
+  * Social Links
+  * GitHub Projects
 * GitHub Projects
 * Social Links
 * External Links
 * Navbar
+  * Archive
+  * Categories
+  * Tags
+  * GitHub Projects
+  * Social Links
+  * External Links
 * Navlists
+  * Archive
+  * Categories
+  * Tags
+  * GitHub Projects
+  * Social Links
+  * External Links
 * Google Analytics
 * Configuration File
