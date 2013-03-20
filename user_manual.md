@@ -41,5 +41,7 @@ order : 1
   * GitHub Projects
   * Social Links
   * External Links
+* Bootstrap
+* Font Awesome
 * Google Analytics
 * Configuration File
