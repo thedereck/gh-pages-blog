@@ -4,7 +4,7 @@ title : User Manual
 order : 1
 ---
 
-* [Getting Started]({{ site.url }}/user-manual/getting_started.html)
+* [Getting Started]({{ site.url }}/user-manual/getting-started.html)
 * Posts
   * Title
   * Subtitle
@@ -41,7 +41,16 @@ order : 1
   * GitHub Projects
   * Social Links
   * External Links
+* RSS
 * Bootstrap
+  * Responsive
+  * Non-Responsive
 * Font Awesome
-* Google Analytics
+* JQuery
+* Analytics
+  * Google Analytics
+* Favicon
+* GitHub Pages
+  * Jekyll
+  * Liquid
 * Configuration File

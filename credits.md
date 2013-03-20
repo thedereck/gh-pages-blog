@@ -1,6 +1,7 @@
 ---
 layout : page
 title : Credits
+subtitle : Giving credit where credit's due.
 order : 100
 ---
 
