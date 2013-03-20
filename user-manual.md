@@ -12,18 +12,30 @@ order : 1
   * Author
   * Category
   * Tags
-  * Comments
-    * Disqus
+  * Alert
+  * Notice
+  * Disqus Comments
 * Pages
   * Title
   * Subtitle
-  * Ordering
+  * Layout
+  * Order
   * Exclude
+  * Alert
+  * Notice
+* Index Page
+  * Posts
+  * Pagination
+* Filter
+  * Category
+  * Tag
 * Brief Bio
   * Image
   * Bio Content
   * Social Links
   * GitHub Projects
+* Site Alert
+* Site Notice
 * GitHub Projects
 * Social Links
 * External Links
@@ -41,6 +53,7 @@ order : 1
   * GitHub Projects
   * Social Links
   * External Links
+* Copyright Notice
 * RSS
 * Bootstrap
   * Responsive
