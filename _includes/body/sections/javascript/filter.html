@@ -12,7 +12,7 @@
 						"subtitle" : "{{ javascript_post.subtitle | replace: '"', '\"' }}" , 
 						"author" : "{{ javascript_post.author | replace '"', '\"' }}" , 
 						"description" : "{{ javascript_post.description | replace: '"', '\"' }}" , 
-						"url" : "{{site.url}}{{ javascript_post.url | replace: '"', '\"' }}" , 
+						"url" : "{{ site.url }}{{ javascript_post.url | replace: '"', '\"' }}" , 
 						"date" : "{{ javascript_post.date | date_to_long_string | replace: '"', '\"' }}" , 
 						"category" : "{{ javascript_post.category | replace: ' ', '___' | capitalize | replace: '"', '\"' }}" , 
 						"tags" : 
@@ -31,11 +31,11 @@
 
 		var create_post_div = function(post) {
 			var post_div = '<div class="ghpb-post"><div class="well ghpb-well-outline">';
-			post_div = post_div + '<h2><a href="' + {{ site.url }} + post.url + '">' + post.title + '</a></h2>';
+			post_div = post_div + '<h2><a href="' + post.url + '">' + post.title + '</a></h2>';
 
 			if (post.subtitle !== null && post.subtitle.length > 0) {
 				post_div = post_div + '<p>' + post.subtitle + '</p>';
-			};
+			}
 
 			if (post.description !== null && post.description.length > 0) {
 				post_div = post_div + '<p>&nbsp;</p><p>' + post.description + '</p>';
@@ -69,7 +69,7 @@
 					post.category.toLowerCase() + '">' +
 					post.category.replace(/___/g, ' ') +
 					'</a><br>';
-			};
+			}
 
 			if (post.tags !== null && post.tags.length > 0) {
 				{% if site.font_awesome.enabled %}
@@ -106,13 +106,13 @@
 		var url_tag_params = $(location).attr('href').match(/\?tag=.+/);
 		if (url_tag_params !== null) {
 			requested_tag = url_tag_params[0].split('&')[0].split('?tag=')[1];
-		};
+		}
 
 		var requested_category = null;
 		var url_category_params = $(location).attr('href').match(/\?category=.+/);
 		if (url_category_params !== null) {
 			requested_category = url_category_params[0].split('&')[0].split('?category=')[1];
-		};
+		}
 
 		if (requested_tag === null && requested_category === null) {
 			$('div.page-header > h1').html('No category or tag supplied');
