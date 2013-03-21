@@ -22,11 +22,11 @@ The post file names is also the permalink. The GitHub:Page Jekyll backend will p
 
 At the top of the post file is something known as front-matter. Here information about the post is contained in what is known as yml format. For the Hello World post, the front matter looks like:
 
-    ---
-    layout : post
-    title : Hello, world!
-    subtitle : Plus some rambling musings about the origin and current state of gh-pages-blog
-    ---
+    ---  
+    layout : post  
+    title : Hello, world!  
+    subtitle : Plus some rambling musings about the origin and current state of gh-pages-blog  
+    ---  
 
 Any information between the top and bottom three dashes will be treated as post settings, and will not display in the body of the post. The body of the post will be everything below the bottom three dashes of the front-matter.
 
@@ -44,16 +44,16 @@ Not represented in the Hello World sample are three other front-matter settings 
 
 Just for fun, let's expand the front-matter of the Hello, World example to show all the available elements mentioned here.
 
-    ---
-    layout : post
-    title : Hello, world!
-    subtitle : Plus some rambling musings about the origin and current state of gh-pages-blog
-    description : An introductory message about gh-pages-blog.
-    category : Status Update
-    tags :
-      - Bootstrap
-      - Jekyll
-    ---
+    ---  
+    layout : post  
+    title : Hello, world!  
+    subtitle : Plus some rambling musings about the origin and current state of gh-pages-blog  
+    description : An introductory message about gh-pages-blog.  
+    category : Status Update  
+    tags :  
+      - Bootstrap  
+      - Jekyll  
+    ---  
 
 Assuming your \_config.yml file has either the categories or tags navlist or navbar dropdown enabled, the first post that has either a category or tag should cause the either the navlist or the dropdown list to appear. If no posts contain categories or tags, then the navlist and dropdownlist won't be rendered to save some screen real estate.
 
@@ -66,12 +66,12 @@ Created pages are listed on the right side in the navbar at the at the top of th
 
 The page you create will also need some front-matter. Here's a good example:
 
-    ---
-    layout : page
-    title : Getting Started
-    subtitle : So you want to learn more about using gh-pages-blog? Well, you've come to the right place.
-    exclude : true
-    ---
+    ---  
+    layout : page  
+    title : Getting Started  
+    subtitle : So you want to learn more about using gh-pages-blog? Well, you've come to the right place.  
+    exclude : true  
+    ---  
 
 Let's break down the front-matter for the page, but it's very similar to the front-matter for a post described above.
 
