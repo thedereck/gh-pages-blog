@@ -25,7 +25,6 @@ There are definitely a few projects that I need to give credit to:
 
 Without the above projects, gh-pages-blog probably wouldn't exist. Thanks to everyone working on those projects for all of their hard work and for releasing the code so that the rest of us can focus on other aspects of our sotware.
 
-
 ## License ##
 
 Except where noted below and elsewhere in the code and repository, the gh-pages-blog code is &copy; Copyright 2013 by Dereck Curry and is licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
