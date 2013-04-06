@@ -1,7 +1,12 @@
-Current version: 0.1.1
+Current version: 0.1.2
 
 
 Changelog:
+
+Version 0.1.2 - 05 April 2013
+- Added author attribution to page headers
+- Fixed author listing on individual post pages
+- Corrected some indentation in the source code that was bothering me
 
 Version 0.1.1 - 21 March 2013
 - Fixed pre rendering issue
