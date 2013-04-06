@@ -121,6 +121,15 @@ exclude: true
 									{% endif %}
 								{% endfor %}
 							{% endif %}
+
+							{% if p.hackernews_id %}
+								{% if site.font_awesome.enabled %}
+									<i class="icon-comments-alt"></i> 
+								{% endif %}
+								Hackernews Discussion: 
+								<a href="https://news.ycombinator.com/item?id={{ p.hackernews_id }}" target="_blank">{{ p.hackernews_id }}</a>
+								<br>
+							{% endif %}
 						</div>
 					</small>
 				</div>

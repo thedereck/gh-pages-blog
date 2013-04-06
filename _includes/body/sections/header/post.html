@@ -53,6 +53,14 @@
 					{% endif %}
 					Published on {{ page.date | date_to_long_string }}.
 					<br>
+
+					{% if enable_disqus_show_comments %}
+						{% if site.font_awesome.enabled %}
+							<i class="icon-comments"></i> 
+						{% endif %}
+						<a href="{{ site.url }}{{ p.url }}#disqus_thread">Comments</a>
+						<br>
+					{% endif %}
 				</div>
 
 				<div class="span3">
@@ -87,6 +95,15 @@
 								<a href="{{ site.url }}/filter.html?tag={{ page_tag }}">{{ page_tag | replace: '___', ' ' }}</a>
 							{% endif %}
 						{% endfor %}
+						<br>
+					{% endif %}
+
+					{% if page.hackernews_id %}
+						{% if site.font_awesome.enabled %}
+							<i class="icon-comments-alt"></i> 
+						{% endif %}
+						Hackernews Discussion: 
+						<a href="https://news.ycombinator.com/item?id={{ page.hackernews_id }}" target="_blank">{{ page.hackernews_id }}</a>
 						<br>
 					{% endif %}
 				</div>
