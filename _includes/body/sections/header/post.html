@@ -42,7 +42,7 @@
 					{% endif %}
 					Authored by 
 					{% if page.author %}
-						{{ p.author }}.
+						{{ page.author }}.
 					{% else %}
 						{{ site.author }}.
 					{% endif %}
@@ -57,14 +57,14 @@
 
 				<div class="span3">
 					{% if page.category.size > 0 %}
-					{% if site.font_awesome.enabled %}
-						<i class="icon-folder-open"></i> 
-					{% endif %}
-					Category: 
-					<a href="{{ site.url }}/filter.html?category={{ page.category | replace: ' ', '___' | downcase }}">
-						{{ page.category | capitalize }}
-					</a>
-					<br>
+						{% if site.font_awesome.enabled %}
+							<i class="icon-folder-open"></i> 
+						{% endif %}
+						Category: 
+						<a href="{{ site.url }}/filter.html?category={{ page.category | replace: ' ', '___' | downcase }}">
+							{{ page.category | capitalize }}
+						</a>
+						<br>
 					{% endif %}
 
 					{% if page_tags_present %}
