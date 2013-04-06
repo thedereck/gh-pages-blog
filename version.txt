@@ -1,7 +1,10 @@
-Current version: 0.2.0
+Current version: 0.2.1
 
 
 Changelog:
+
+Version 0.2.1 - 06 April 2013
+- Simply updated some configuration settings to default to github.io instead of github.com
 
 Version 0.2.0 - 05 April 2013
 - Added author attribution to page headers
