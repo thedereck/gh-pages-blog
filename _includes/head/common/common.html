@@ -1,5 +1,11 @@
 {% assign head_common_html = null %}
 {% capture head_common_html %}
+	<meta name="author" content='{{ site.author | site.email }}'>
+	{% if page.author and page.author_email %}
+		<meta name="author" content='{{ page.author | page.author_email }}'>
+	{% elsif page.author %}
+		<meta name="author" content='{{ page.author }}'>
+	{% endif %}
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="{{ site.url }}/css/{{ site.bootstrap.css }}" rel="stylesheet" media="screen">
 	<link href="{{ site.url }}/css/gh-pages-blog.css" rel="stylesheet" media="screen">
