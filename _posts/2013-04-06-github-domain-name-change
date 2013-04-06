@@ -1,0 +1,15 @@
+---
+layout : post
+title : GitHub Pages Domain Name Change To GitHub.io
+category : GitHub Pages
+tags :
+  - fyi
+---
+
+Yesterday, GitHub [announced](https://github.com/blog/1452-new-github-pages-domain-github-io) announced that the domain name used for all GitHub pages accounts would now be github.io instead of github.com. Thankfully, they have put in place forwarding so that links don't have to be updated.
+
+That being said, it's not a bad idea to update the site setting in the \_config.yml file for your gh-pages-blog powered site. If you've used the {{ site.url }} shortcut in your pages and blogs, then you probably won't need to update anything else. If you've hardcoded the URL, then you'll need to make changes for each instance. (Good thing that text editor or IDE that you use has a find and replace feature, isn't it?)
+
+Well that about covers it.
+
+Dereck

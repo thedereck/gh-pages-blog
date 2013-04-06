@@ -20,13 +20,13 @@
 # name : The Dereck
 # brand : The Dereck
 # description : Dereck's Awesome Blog
-# url : http://thedereck.github.com
+# url : http://thedereck.github.io
 # email : thedereck@thedereck.com
 # author : Dereck Curry
 name : gh-pages-blog
 brand : gh-pages-blog
 description : The More Or Less Official GH-Pages-Blog GitHub Page (And Blog)
-url : http://thedereck.github.com/gh-pages-blog
+url : http://thedereck.github.io/gh-pages-blog
 email : thedereck@thedereck.com
 author: Dereck Curry
 
@@ -358,7 +358,7 @@ external_links :
   links :
     - link :
       name : The Dereck
-      url: http://thedereck.github.com
+      url: http://thedereck.github.io
 
 
 # These are the bootstrap settings. These bootstrap settings will control both
