@@ -520,8 +520,8 @@ rss :
 #   shortname : TheDereck
 #   show_comment_count : false
 disqus :
-  enabled : false
-  shortname : myshortname
+  enabled : true
+  shortname : ghpagesblog
   show_comment_count : true
 
 
@@ -543,7 +543,7 @@ disqus :
 #     enabled : true
 #     tracking_id : UA-1234567
 analytics :
-  enabled : false
+  enabled : true
   google_analytics :
-    enabled : false
-    tracking_id : UA-1234567
+    enabled : true
+    tracking_id : UA-7954274-6
