@@ -41,6 +41,8 @@ Not represented in the Hello World sample are three other front-matter settings 
 * description - The description is a brief description of the post. This will be used in the generation of the rss.xml and will also be used when showing all posts with a specific category or tag. This is completely optional, but probably good form if your title and subtitle don't give enough information about the content of the post.
 * category - Every post can have at most one category. The categories to use are completely up to you. When categories are displayed, the first letter in the first word is capitalized. Category is an optional setting.
 * tags - Tags are basically the important elements of your post summarized into a few words. If your post includes information about specific people, you might make those people the tags of the post. A post can have more than one tag, but tags are completely optional to use. When tags are dispayed, they are displayed in all lowercase.
+* author - The optional author tag is used when the author of the post is different than the author of the site. Only one author tag can be included on each post. In the absense of the author tag, then the site author will be used. The post author is displayed on the post, and is also included in the html header meta data of the site.
+* author\_email - The optional author\_email tag is used when the author of the post is different than the author of the site. Only one author\_email tag can be included on each post. In the absense of the author\_email tag, the site author email will be used. The author\_email is not displayed on the post page, but is part of the html header meta data.
 
 Just for fun, let's expand the front-matter of the Hello, World example to show all the available elements mentioned here.
 
@@ -80,6 +82,8 @@ Let's break down the front-matter for the page, but it's very similar to the fro
 * subtitle - Subtitle is the optional subtitle for the page. If the subtitle is not defined, there is no default. It just won't be displayed.
 * exclude - Exclude is the optional identifier to tell gh-pages-blog to exclude the page from the list of pages displayed in the navbar. If the exclude setting is missing, gh-pages-blog will display the page in the navbar list.
 * order - This is a value between 0 and 100. The lower the value, the further left the page will be on the navbar list of pages. This too is an optional setting. But if the order is not included in the front-matter, then page will appear to the right of the ordered pages. Not setting order is the same as saying order of 101. Pages with the same order value will most likely be ordered in a way that appears quite random to the viewer of the website.
+* author - The optional author tag is used when the author of the page is different than the author of the site. Only one author tag can be included on each page. In the absense of the author tag, then the site author will be used. The author is not displayed on each page, but is included the html header meta data.
+* author\_email - The optional author\_email tag is used when the author of the page is different than the author of the site. Only one author\_email tag can be included on each page. In the absense of the author\_email tag, the site author email will be used. The author\_email is not actually displayed on each page, but is included i the html header meta data.
 
 Like posts, the body of the page is contained after the three bottom dashes in the front-matter.
 
