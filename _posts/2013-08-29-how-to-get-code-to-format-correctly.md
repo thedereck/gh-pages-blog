@@ -6,7 +6,7 @@ tags :
   - tutorial
 ---
 
-I recently received a quesiton about how to get code to render correctly on a blog post. In order to get the code to render, you'll need to wrap it in ````` and include a blank line before the code block.
+I recently received a quesiton about how to get code to render correctly on a blog post. In order to get the code to render, you'll need to wrap it in and include a blank line before the code block.
 
 For example:
 
