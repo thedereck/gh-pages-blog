@@ -61,6 +61,7 @@ order : 1
   * Non-Responsive
 * Font Awesome
 * JQuery
+* Syntax Highlighting
 * Analytics
   * Google Analytics
 * Favicon
