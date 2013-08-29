@@ -23,6 +23,8 @@ There are definitely a few projects that I need to give credit to:
 
 [Font Awesome 3.0](http://fortawesome.github.com/Font-Awesome/) by Dave Gandy
 
+[syntax.css](https://github.com/mojombo/jekyll) by Tom Preston-Werner 
+
 Without the above projects, gh-pages-blog probably wouldn't exist. Thanks to everyone working on those projects for all of their hard work and for releasing the code so that the rest of us can focus on other aspects of our sotware.
 
 ## License ##
@@ -48,3 +50,6 @@ Unless required by applicable law or agreed to in writing, software distributed 
 * The Font Awesome font is licensed under the SIL Open Font License - [http://scripts.sil.org/OFL](http://scripts.sil.org/OFL).
 * Font Awesome CSS, LESS, and SASS files are licensed under the MIT License - [http://opensource.org/licenses/mit-license.html](http://opensource.org/licenses/mit-license.html).
 * The Font Awesome pictograms are licensed under the CC BY 3.0 License - [http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/).
+
+[syntax.css](https://github.com/mojombo/jekyll) by Tom Preston-Werner 
+* The syntax.css is licensed under the MIT License - [http://opensource.org/licenses/mit-license.html](http://opensource.org/licenses/mit-license.html).

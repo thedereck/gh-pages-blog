@@ -438,6 +438,24 @@ font_awesome :
   css : font-awesome.min.css
 
 
+# This section of the configuration determins how syntax highlighting is
+# configured and the css file to be used.
+#
+# syntax_highlighting : enabled - Enables or disables the loading of the
+# css to be used for syntax highlighting of code blocks.
+#
+# syntax_highlighting : css - The name of the css file to use for syntax
+# highlighting.
+#
+# Here's an example configuration:
+# syntax_highlighting :
+#   enabled : true
+#   css : syntax.css
+syntax_highlighting :
+  enabled : true
+  css : syntax.css
+
+
 # This section of the configuration determines how the rss 2.0 xml file is
 # configured. The rss.xml is generated based upon the following settings,
 # as well as those above and on the post yml front-matter.

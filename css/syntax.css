@@ -1,3 +1,8 @@
+/* The following css was provided by Tom Preston-Werner (https://github.com/mojombo/jekyll)
+and is released under the MIT License. The source of the css can be found at:
+https://github.com/mojombo/tpw/blob/master/css/syntax.css */
+
+
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
