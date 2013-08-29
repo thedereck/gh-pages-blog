@@ -1,7 +1,10 @@
-Current version: 0.2.1
+Current version: 0.2.2
 
 
 Changelog:
+
+Version 0.2.2 - 29 August 2013
+- Missing colon causing build issues when author attribution is used on a post. Thanks to sugyo for identifying the bug and providing a fix (https://github.com/sugyo).
 
 Version 0.2.1 - 06 April 2013
 - Simply updated some configuration settings to default to github.io instead of github.com
