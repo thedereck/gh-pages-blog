@@ -10,21 +10,23 @@ I recently received a quesiton about how to get code to render correctly on a bl
 
 For example:
 
-```
+<pre>
+  <code>
 function code_example() {
   console.log("Showing the rendering of code using gh-pages-blog.");
 }
-```
+  </code>
+</pre>
 
 In order to turn on syntax highlighting, you'll also need to include the language in the first line:
 
-```javascript
+<pre>
+  <code class="javascript">
 function code_example_with_highlights() {
   console.log("Showing the rendering of code using gh-pages-blog.");
 }
-```
-
-For a complete list of supported programming languages, see the [languages.yml](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) file provided by the [Linguist](https://github.com/github/linguist) project.
+  </code>
+</pre>
 
 Dereck
 
