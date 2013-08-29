@@ -18,7 +18,9 @@
 		<link rel="stylesheet" href="{{ site.url }}/css/{{ site.font_awesome.css }}">
 	{% endif %}
 
-		<link rel="stylesheet" href="{{ site.url }}/css/syntax.css">
+	{% if site.syntax_highlighting.enabled %}
+		<link rel="stylesheet" href="{{ site.url }}/css/{{ site.syntax_highlighting.css }}">
+	{% endif %}
 
 	{% if site.rss.enabled %}
 		<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/rss.xml" />
