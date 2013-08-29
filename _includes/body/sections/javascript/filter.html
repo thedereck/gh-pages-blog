@@ -10,7 +10,7 @@
 				{% endif %}
 						"title" : "{{ javascript_post.title | replace: '"', '\"' }}" , 
 						"subtitle" : "{{ javascript_post.subtitle | replace: '"', '\"' }}" , 
-						"author" : "{{ javascript_post.author | replace '"', '\"' }}" , 
+						"author" : "{{ javascript_post.author | replace: '"', '\"' }}" , 
 						"description" : "{{ javascript_post.description | replace: '"', '\"' }}" , 
 						"url" : "{{ site.url }}{{ javascript_post.url | replace: '"', '\"' }}" , 
 						"date" : "{{ javascript_post.date | date_to_long_string | replace: '"', '\"' }}" , 
