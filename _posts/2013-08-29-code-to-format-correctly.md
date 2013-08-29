@@ -10,11 +10,11 @@ I recently received a quesiton about how to get code to render correctly on a bl
 
 For example:
 
-{% highlight %}
+<pre><code>
 function code_example() {
   console.log("Showing the rendering of code using gh-pages-blog.");
 }
-{% endhighlight %}
+</code></pre>
 
 In order to turn on syntax highlighting, you'll also need to include the language in the highlight markup tag, `{% highlight javascript %}`:
 
