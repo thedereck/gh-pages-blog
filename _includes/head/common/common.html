@@ -18,6 +18,8 @@
 		<link rel="stylesheet" href="{{ site.url }}/css/{{ site.font_awesome.css }}">
 	{% endif %}
 
+		<link rel="stylesheet" href="{{ site.url }}/css/syntax.css">
+
 	{% if site.rss.enabled %}
 		<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/rss.xml" />
 	{% endif %}
@@ -27,5 +29,6 @@
 	{% elsif site.favicon.enabled and site.favicon.remote.enabled %}
 		<link rel="icon" type="image/{{ site.favicon.remote.type }}" href="{{ site.favicon.remote.full_url }}" />
 	{% endif %}
+	
 {% endcapture %}
 {{ head_common_html | strip_newlines | remove:'	' }}
