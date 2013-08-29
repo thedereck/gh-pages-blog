@@ -61,7 +61,7 @@ order : 1
   * Non-Responsive
 * Font Awesome
 * JQuery
-* Syntax Highlighting
+* [Syntax Highlighting]({{ site.url }}/user-manual/syntax-highlighting.html)
 * Analytics
   * Google Analytics
 * Favicon
