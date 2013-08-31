@@ -2,7 +2,7 @@
 layout : post
 title : Hello, world!
 subtitle : Plus some rambling musings about the origin and current state of gh-pages-blog
-category : Version 0.1.0
+category : Version 0.1
 tags :
   - initial release
 ---
