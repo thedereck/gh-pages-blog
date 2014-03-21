@@ -87,9 +87,9 @@ favicon :
 
 
 # These are the sections of on the right hand column of the page (or at the
-# bottom if ther responsive design has moved stuff around to accomodate
+# bottom if the responsive design has moved stuff around to accommodate
 # smaller screen sizes). Any section can be enabled by simply setting the
-# enabled configuratin option to true.
+# enabled configuration option to true.
 #
 # brief_bio - This section is to contain a small amount of information
 # about either the GitHub account owner or the GitHub project. There are
@@ -98,7 +98,7 @@ favicon :
 # social links, and GitHub projects.
 #
 # brief_bio : image - For the image used in brief bio, the url should be the
-# full link to the locatin of the image, even if the image is going to be
+# full link to the location of the image, even if the image is going to be
 # served by the GitHub pages.
 #
 # brief_bio : content - The content of the brief bio should be written in the
@@ -332,7 +332,7 @@ github_projects :
 
 
 # These are links to other websites outside of the blog that are not part of
-# the social links or github projects. Although they could be either of those
+# the social links or Github projects. Although they could be either of those
 # as well.
 #
 # header - This is what will appear in the navlist header and the navbar
@@ -361,16 +361,16 @@ external_links :
       url: https://thedereck.github.io
 
 
-# These are the bootstrap settings. These bootstrap settings will control both
+# These are the Bootstrap settings. These Bootstrap settings will control both
 # the theme and responsive settings of this site.
 #
-# css - The name of the bootstrap css. Using one of the min css should be
+# css - The name of the Bootstrap css. Using one of the min css should be
 # fine. This also controls the general theme of the website, so using a custom
-# bootstrap css should work just fine. Also any of the bootswatch settings
+# Bootstrap css should work just fine. Also any of the Bootswatch settings
 # should work just fine, but you may need to tweak the css settings in the
 # css/gh-pages-blog.css if things clash.
 #
-# responsive : enabled - To enable a responsive bootstrap, set this value to
+# responsive : enabled - To enable a responsive Bootstrap, set this value to
 # true.
 #
 # responsive : css - The name of the bootstrap responsive css file to use. It
@@ -424,9 +424,9 @@ jquery:
 # site. Although not required, the Font Awesome fonts make the website look
 # much better.
 #
-# font_awesome : enabled - Enables or disables the use of font awesome.
+# font_awesome : enabled - Enables or disables the use of Font Awesome.
 #
-# font_awesome : css - The css file to use for font awesome. The min css
+# font_awesome : css - The css file to use for Font Awesome. The min css
 # should be sufficient.
 #
 # Here's an example configurtion:
@@ -438,7 +438,7 @@ font_awesome :
   css : font-awesome.min.css
 
 
-# This section of the configuration determins how syntax highlighting is
+# This section of the configuration determines how syntax highlighting is
 # configured and the css file to be used.
 #
 # syntax_highlighting : enabled - Enables or disables the loading of the
@@ -474,7 +474,7 @@ syntax_highlighting :
 # webmaster : enabled - Enables or disables the inclusion of the
 # webmater node in the xml.
 #
-# webmaster : webmater - The email address and name of the
+# webmaster : webmaster - The email address and name of the
 # webmaster. The format is fairly specific in that the email address is
 # listed followed by an actual name in parenthesis:
 # thedereck@thedereck.com (Dereck Curry).
@@ -549,10 +549,10 @@ disqus :
 #
 # enabled - Determines whether analytics are enabled or not.
 #
-# google_analytics : enabled - Determines whether google analytics in
+# google_analytics : enabled - Determines whether Google analytics in
 # particular is enabled or not.
 #
-# google_analytics : tracking_id - The tracking ID assigned by google.
+# google_analytics : tracking_id - The tracking ID assigned by Google.
 #
 # Here's a sample configuration:
 # analytics :
