@@ -300,7 +300,7 @@ social_links :
       enabled : true
       name : Twitter
       font_awesome_icon : icon-twitter
-      url : http://www.twitter.com/_TheDereck_
+      url : http://www.twitter.com/DereckCurry
 
 
 # These are a list of GitHub projects that the blog owner would like to
