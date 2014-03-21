@@ -9,7 +9,7 @@
 # description will be used instead.
 #
 # url - This is the fully qualified url of the website. Include the
-# http:// or https://.
+# https://.
 #
 # email - The email address of the site administrator.
 #
@@ -20,13 +20,13 @@
 # name : The Dereck
 # brand : The Dereck
 # description : Dereck's Awesome Blog
-# url : http://thedereck.github.io
+# url : https://thedereck.github.io
 # email : thedereck@thedereck.com
 # author : Dereck Curry
 name : gh-pages-blog
 brand : gh-pages-blog
 description : The Official gh-pages-blog GitHub Page
-url : http://thedereck.github.io/gh-pages-blog
+url : https://thedereck.github.io/gh-pages-blog
 email : thedereck@thedereck.com
 author: Dereck Curry
 
@@ -60,7 +60,7 @@ notice : false
 # appended to the site configured url above (basically don't include the part
 # that is included in the URL above). If you want to use a favicon that
 # is hosted elsewhere, disable the local and enable the remote and include the
-# full url (http://www.something.domain/directory/file.extention). For either
+# full url (https://www.something.domain/directory/file.extention). For either
 # the local or remote, you'll need to include the file type.
 #
 # Here's an example configuration:
@@ -72,7 +72,7 @@ notice : false
 #     type : false
 #   remote :
 #     enabled : true
-#     full_url : http://www.gravatar.com/avatar/2f8947394b8acb62e1055f27.png
+#     full_url : https://www.gravatar.com/avatar/2f8947394b8acb62e1055f27.png
 #     type : png
 favicon :
   enabled : true
@@ -87,9 +87,9 @@ favicon :
 
 
 # These are the sections of on the right hand column of the page (or at the
-# bottom if ther responsive design has moved stuff around to accomodate
+# bottom if the responsive design has moved stuff around to accommodate
 # smaller screen sizes). Any section can be enabled by simply setting the
-# enabled configuratin option to true.
+# enabled configuration option to true.
 #
 # brief_bio - This section is to contain a small amount of information
 # about either the GitHub account owner or the GitHub project. There are
@@ -98,7 +98,7 @@ favicon :
 # social links, and GitHub projects.
 #
 # brief_bio : image - For the image used in brief bio, the url should be the
-# full link to the locatin of the image, even if the image is going to be
+# full link to the location of the image, even if the image is going to be
 # served by the GitHub pages.
 #
 # brief_bio : content - The content of the brief bio should be written in the
@@ -108,7 +108,7 @@ favicon :
 # bio are the same ones that are configured in the social_links configuration
 # section below.
 #
-# brief_bio : github_projects - The GitHub projects that are dispalyed in the
+# brief_bio : github_projects - The GitHub projects that are displayed in the
 # brief bio are the same ones that are configured in the github_projects section
 # below.
 #
@@ -145,7 +145,7 @@ favicon :
 #     enabled : true
 #     image :
 #       enabled : true
-#       url : http://www.gravatar.com/avatar/2f89473908df91055f27.png?s=200
+#       url : https://www.gravatar.com/avatar/2f89473908df91055f27.png?s=200
 #     content :
 #       enabled : true
 #     social_links :
@@ -277,7 +277,7 @@ navbar :
 #       enabled : true
 #       name : Twitter
 #       font_awesome_icon : icon-twitter
-#       url : http://www.twitter.com/_TheDereck_
+#       url : https://www.twitter.com/dereckcurry
 social_links :
   follow_name : Me
   links :
@@ -310,7 +310,7 @@ social_links :
       enabled : true
       name : Twitter
       font_awesome_icon : icon-twitter
-      url : http://www.twitter.com/
+      url : https://www.twitter.com/
 
 
 # These are a list of GitHub projects that the blog owner would like to
@@ -368,22 +368,22 @@ external_links :
   links :
     - link :
       name : The Dereck
-      url: http://thedereck.github.io
+      url: https://thedereck.github.io
 
 
-# These are the bootstrap settings. These bootstrap settings will control both
+# These are the Bootstrap settings. These Bootstrap settings will control both
 # the theme and responsive settings of this site.
 #
-# css - The name of the bootstrap css. Using one of the min css should be
+# css - The name of the Bootstrap css. Using one of the min css should be
 # fine. This also controls the general theme of the website, so using a custom
-# bootstrap css should work just fine. Also any of the bootswatch settings
+# bootstrap css should work just fine. Also any of the Bootswatch settings
 # should work just fine, but you may need to tweak the css settings in the
 # css/gh-pages-blog.css if things clash.
 #
-# responsive : enabled - To enable a responsive bootstrap, set this value to
+# responsive : enabled - To enable a responsive Bootstrap, set this value to
 # true.
 #
-# responsive : css - The name of the bootstrap responsive css file to use. It
+# responsive : css - The name of the Bootstrap responsive css file to use. It
 # should be just fine to use the min file.
 #
 # responsive : js : enabled - This either enables or disables the responsive
@@ -413,13 +413,13 @@ bootstrap:
     src : bootstrap.min.js
 
 
-# These are the configuration settings for the jquery javascript. JQuery is
+# These are the configuration settings for the JQuery javascript. JQuery is
 # needed for responsive bootstrap and for the filter.html file.
 #
-# jquery : enabled - This enables or disables jquery. Disabling will probably
+# jquery : enabled - This enables or disables JQuery. Disabling will probably
 # cause the site to behave in a way that is unexpected.
 #
-# jquery : src - The source code file of the jquery to use.
+# jquery : src - The source code file of the JQuery to use.
 #
 # Here's an example configuration:
 # jquery:
@@ -439,7 +439,7 @@ jquery:
 # font_awesome : css - The css file to use for font awesome. The min css
 # should be sufficient.
 #
-# Here's an example configurtion:
+# Here's an example configuration:
 # font_awesome :
 #   enabled : true
 #   css : font-awesome.min.css
@@ -448,7 +448,7 @@ font_awesome :
   css : font-awesome.min.css
 
 
-# This section of the configuration determins how syntax highlighting is
+# This section of the configuration determines how syntax highlighting is
 # configured and the css file to be used.
 #
 # syntax_highlighting : enabled - Enables or disables the loading of the
@@ -482,9 +482,9 @@ syntax_highlighting :
 # thedereck@thedereck.com (Dereck Curry).
 #
 # webmaster : enabled - Enables or disables the inclusion of the
-# webmater node in the xml.
+# webmaster node in the xml.
 #
-# webmaster : webmater - The email address and name of the
+# webmaster : webmaster - The email address and name of the
 # webmaster. The format is fairly specific in that the email address is
 # listed followed by an actual name in parenthesis:
 # thedereck@thedereck.com (Dereck Curry).
@@ -513,7 +513,7 @@ syntax_highlighting :
 #     ttl : 300
 #   image :
 #     enabled : true
-#     image : http://www.gravatar.com/avatar/0f08df91055f27.png?s=200
+#     image : https://www.gravatar.com/avatar/0f08df91055f27.png?s=200
 rss :
   enabled : true
   managing_editor :
@@ -559,10 +559,10 @@ disqus :
 #
 # enabled - Determines whether analytics are enabled or not.
 #
-# google_analytics : enabled - Determines whether google analytics in
+# google_analytics : enabled - Determines whether Google analytics in
 # particular is enabled or not.
 #
-# google_analytics : tracking_id - The tracking ID assigned by google.
+# google_analytics : tracking_id - The tracking ID assigned by Google.
 #
 # Here's a sample configuration:
 # analytics :
