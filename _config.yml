@@ -9,7 +9,7 @@
 # description will be used instead.
 #
 # url - This is the fully qualified url of the website. Include the
-# http:// or https://.
+# https://.
 #
 # email - The email address of the site administrator.
 #
@@ -20,7 +20,7 @@
 # name : The Dereck
 # brand : The Dereck
 # description : Dereck's Awesome Blog
-# url : http://thedereck.github.io
+# url : https://thedereck.github.io
 # email : thedereck@thedereck.com
 # author : Dereck Curry
 name : gh-pages-blog
@@ -60,7 +60,7 @@ notice : false
 # appended to the site configured url above (basically don't include the part
 # that is included in the URL above). If you want to use a favicon that
 # is hosted elsewhere, disable the local and enable the remote and include the
-# full url (http://www.something.domain/directory/file.extention). For either
+# full url (https://www.something.domain/directory/file.extention). For either
 # the local or remote, you'll need to include the file type.
 #
 # Here's an example configuration:
@@ -108,7 +108,7 @@ favicon :
 # bio are the same ones that are configured in the social_links configuration
 # section below.
 #
-# brief_bio : github_projects - The GitHub projects that are dispalyed in the
+# brief_bio : github_projects - The GitHub projects that are displayed in the
 # brief bio are the same ones that are configured in the github_projects section
 # below.
 #
@@ -373,16 +373,16 @@ external_links :
 # responsive : enabled - To enable a responsive Bootstrap, set this value to
 # true.
 #
-# responsive : css - The name of the bootstrap responsive css file to use. It
+# responsive : css - The name of the Bootstrap responsive css file to use. It
 # should be just fine to use the min file.
 #
 # responsive : js : enabled - This either enables or disables the responsive
-# bootstrap css. If you're going to use responsive css, you also need to use
-# a responsive bootstrap js.
+# Bootstrap css. If you're going to use responsive css, you also need to use
+# a responsive Bootstrap js.
 #
 # responsive : js : src - The javascript to use for the responsive
-# bootstrap. If you're going to use responsive css, you also need to use
-# a responsive bootstrap js.
+# Bootstrap. If you're going to use responsive css, you also need to use
+# a responsive Bootstrap js.
 #
 # Here's an example configuration:
 # bootstrap:
@@ -403,13 +403,13 @@ bootstrap:
     src : bootstrap.min.js
 
 
-# These are the configuration settings for the jquery javascript. JQuery is
-# needed for responsive bootstrap and for the filter.html file.
+# These are the configuration settings for the JQuery javascript. JQuery is
+# needed for responsive Bootstrap and for the filter.html file.
 #
-# jquery : enabled - This enables or disables jquery. Disabling will probably
+# jquery : enabled - This enables or disables JQuery. Disabling will probably
 # cause the site to behave in a way that is unexpected.
 #
-# jquery : src - The source code file of the jquery to use.
+# jquery : src - The source code file of the JQuery to use.
 #
 # Here's an example configuration:
 # jquery:
@@ -429,7 +429,7 @@ jquery:
 # font_awesome : css - The css file to use for Font Awesome. The min css
 # should be sufficient.
 #
-# Here's an example configurtion:
+# Here's an example configuration:
 # font_awesome :
 #   enabled : true
 #   css : font-awesome.min.css
@@ -472,7 +472,7 @@ syntax_highlighting :
 # thedereck@thedereck.com (Dereck Curry).
 #
 # webmaster : enabled - Enables or disables the inclusion of the
-# webmater node in the xml.
+# webmaster node in the xml.
 #
 # webmaster : webmaster - The email address and name of the
 # webmaster. The format is fairly specific in that the email address is
@@ -487,7 +487,7 @@ syntax_highlighting :
 # represent the site in the xml.
 #
 # image : image - The full url of the image to use. Must include the
-# http:// or https://.
+# https://.
 #
 # Here's an example configuration:
 # rss :
@@ -503,7 +503,7 @@ syntax_highlighting :
 #     ttl : 300
 #   image :
 #     enabled : true
-#     image : http://www.gravatar.com/avatar/0f08df91055f27.png?s=200
+#     image : https://www.gravatar.com/avatar/0f08df91055f27.png?s=200
 rss :
   enabled : true
   managing_editor :
