@@ -26,7 +26,7 @@
 name : gh-pages-blog
 brand : gh-pages-blog
 description : The More Or Less Official GH-Pages-Blog GitHub Page (And Blog)
-url : http://thedereck.github.io/gh-pages-blog
+url : https://thedereck.github.io/gh-pages-blog
 email : thedereck@thedereck.com
 author: Dereck Curry
 
@@ -72,7 +72,7 @@ notice : false
 #     type : false
 #   remote :
 #     enabled : true
-#     full_url : http://www.gravatar.com/avatar/2f8947394b8acb62e1055f27.png
+#     full_url : https://www.gravatar.com/avatar/2f8947394b8acb62e1055f27.png
 #     type : png
 favicon :
   enabled : true
@@ -358,7 +358,7 @@ external_links :
   links :
     - link :
       name : The Dereck
-      url: http://thedereck.github.io
+      url: https://thedereck.github.io
 
 
 # These are the bootstrap settings. These bootstrap settings will control both
