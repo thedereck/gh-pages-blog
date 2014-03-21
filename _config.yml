@@ -376,7 +376,7 @@ external_links :
 #
 # css - The name of the Bootstrap css. Using one of the min css should be
 # fine. This also controls the general theme of the website, so using a custom
-# bootstrap css should work just fine. Also any of the Bootswatch settings
+# Bootstrap css should work just fine. Also any of the Bootswatch settings
 # should work just fine, but you may need to tweak the css settings in the
 # css/gh-pages-blog.css if things clash.
 #
@@ -387,12 +387,12 @@ external_links :
 # should be just fine to use the min file.
 #
 # responsive : js : enabled - This either enables or disables the responsive
-# bootstrap css. If you're going to use responsive css, you also need to use
-# a responsive bootstrap js.
+# Bootstrap css. If you're going to use responsive css, you also need to use
+# a responsive Bootstrap js.
 #
 # responsive : js : src - The javascript to use for the responsive
-# bootstrap. If you're going to use responsive css, you also need to use
-# a responsive bootstrap js.
+# Bootstrap. If you're going to use responsive css, you also need to use
+# a responsive Bootstrap js.
 #
 # Here's an example configuration:
 # bootstrap:
@@ -414,7 +414,7 @@ bootstrap:
 
 
 # These are the configuration settings for the JQuery javascript. JQuery is
-# needed for responsive bootstrap and for the filter.html file.
+# needed for responsive Bootstrap and for the filter.html file.
 #
 # jquery : enabled - This enables or disables JQuery. Disabling will probably
 # cause the site to behave in a way that is unexpected.
@@ -436,7 +436,7 @@ jquery:
 #
 # font_awesome : enabled - Enables or disables the use of font awesome.
 #
-# font_awesome : css - The css file to use for font awesome. The min css
+# font_awesome : css - The css file to use for Font Awesome. The min css
 # should be sufficient.
 #
 # Here's an example configuration:
@@ -497,7 +497,7 @@ syntax_highlighting :
 # represent the site in the xml.
 #
 # image : image - The full url of the image to use. Must include the
-# http:// or https://.
+# https://.
 #
 # Here's an example configuration:
 # rss :
