@@ -145,7 +145,7 @@ favicon :
 #     enabled : true
 #     image :
 #       enabled : true
-#       url : http://www.gravatar.com/avatar/2f89473908df91055f27.png?s=200
+#       url : https://www.gravatar.com/avatar/2f89473908df91055f27.png?s=200
 #     content :
 #       enabled : true
 #     social_links :
@@ -277,7 +277,7 @@ navbar :
 #       enabled : true
 #       name : Twitter
 #       font_awesome_icon : icon-twitter
-#       url : http://www.twitter.com/_TheDereck_
+#       url : http://www.twitter.com/dereckcurry
 social_links :
   follow_name : Dereck Curry For Updates About gh-pages-blog
   links :
@@ -300,7 +300,7 @@ social_links :
       enabled : true
       name : Twitter
       font_awesome_icon : icon-twitter
-      url : http://www.twitter.com/DereckCurry
+      url : https://www.twitter.com/DereckCurry
 
 
 # These are a list of GitHub projects that the blog owner would like to
@@ -340,8 +340,7 @@ github_projects :
 #
 # links : link : name - The name of the external website.
 #
-# links : link : url - The url of the external website. Include the http://
-# or https://.
+# links : link : url - The url of the external website. Include the https://.
 #
 # Here is an example configuration:
 # external_links :
