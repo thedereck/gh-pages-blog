@@ -1,7 +1,10 @@
-Current version: 0.3.0
+Current version: 0.3.1
 
 
 Changelog:
+
+Version 0.3.1 - 21 March 2014
+- Removed duplicate 'a' and updated <docs> in rss.xml. Thanks to larsks for those fixes (https://github.com/larsks).
 
 Version 0.3.0 - 29 August 2013
 - Added support syntax highlighting of code with a configurable syntax css setting option.
