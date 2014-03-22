@@ -277,7 +277,7 @@ navbar :
 #       enabled : true
 #       name : Twitter
 #       font_awesome_icon : icon-twitter
-#       url : http://www.twitter.com/dereckcurry
+#       url : https://www.twitter.com/dereckcurry
 social_links :
   follow_name : Dereck Curry For Updates About gh-pages-blog
   links :
@@ -402,13 +402,13 @@ bootstrap:
     src : bootstrap.min.js
 
 
-# These are the configuration settings for the JQuery javascript. JQuery is
+# These are the configuration settings for the jQuery javascript. jQuery is
 # needed for responsive Bootstrap and for the filter.html file.
 #
-# jquery : enabled - This enables or disables JQuery. Disabling will probably
+# jquery : enabled - This enables or disables jQuery. Disabling will probably
 # cause the site to behave in a way that is unexpected.
 #
-# jquery : src - The source code file of the JQuery to use.
+# jquery : src - The source code file of the jQuery to use.
 #
 # Here's an example configuration:
 # jquery:
