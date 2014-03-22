@@ -8,7 +8,7 @@ The simple way to use GitHub Pages as your account or project blog and website.
 
 gh-pages-blog is built upon the existing GitHub:Pages technologies, adding responsive Bootstrap, Font Awesome, JQuery, Disqus, Google Analytics, and some custom javascript to the mix to provide a fairly complete blogging solution.
 
-For more information, visit the GitHub Page for the gh-pages-blog project. [http://thedereck.github.io/gh-pages-blog/](http://thedereck.github.io/gh-pages-blog/)
+For more information, visit the GitHub Page for the gh-pages-blog project. [https://thedereck.github.io/gh-pages-blog/](https://thedereck.github.io/gh-pages-blog/)
 
 
 ## Credit ##
