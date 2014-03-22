@@ -542,13 +542,13 @@ disqus :
   show_comment_count : true
 
 
-# This section determines whether to use Google analytics to track site
+# This section determines whether to use Google Analytics to track site
 # visitors and statistics. In the future, other analytic engines will most
 # likely be supported.
 #
 # enabled - Determines whether analytics are enabled or not.
 #
-# google_analytics : enabled - Determines whether Google analytics in
+# google_analytics : enabled - Determines whether Google Analytics in
 # particular is enabled or not.
 #
 # google_analytics : tracking_id - The tracking ID assigned by Google.
